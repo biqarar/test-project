@@ -1,14 +1,11 @@
-// resources/views/tasks.blade.php
+
  
-@extends('layouts.app')
- 
-@section('content')
- 
+
     <!-- Bootstrap Boilerplate... -->
  
     <div class="panel-body">
         <!-- Display Validation Errors -->
-        @include('common.errors')
+        Hi
  
         <!-- New Task Form -->
         <form action="/task" method="POST" class="form-horizontal">
@@ -34,5 +31,3 @@
         </form>
     </div>
  
-    <!-- TODO: Current Tasks -->
-@endsection
